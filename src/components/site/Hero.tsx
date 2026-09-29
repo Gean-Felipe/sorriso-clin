@@ -57,19 +57,19 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={120} className="relative">
-          <div className="relative mx-auto max-w-md lg:max-w-none">
-            <div className="absolute -inset-4 rounded-[2.5rem] bg-soft/70" aria-hidden="true" />
+          <div className="group relative mx-auto max-w-md lg:max-w-none">
+            <div className="absolute -inset-4 rounded-[2.5rem] bg-soft/70 transition-transform duration-700 group-hover:scale-[1.02]" aria-hidden="true" />
             <div className="relative overflow-hidden rounded-[2rem] bg-background shadow-[0_24px_60px_-30px_oklch(0.443_0.101_243.5_/_0.45)]">
               <img
                 src={img.heroProfissionais}
                 alt="Dra. Gabriela e Dr. Valdir Reis — Sorriso Clin"
-                className="aspect-[4/5] w-full object-cover object-center"
+                className="aspect-[4/5] w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 width={1080}
                 height={1920}
                 fetchPriority="high"
               />
             </div>
-            <div className="absolute -bottom-6 -left-4 rounded-2xl border border-border bg-background px-5 py-4 shadow-lg sm:left-2">
+            <div className="animate-float-slow absolute -bottom-6 -left-4 rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur-md sm:left-2">
               <p className="font-display text-2xl font-extrabold text-deep">4,5 ★</p>
               <p className="text-xs text-muted-foreground">27 avaliações no Google</p>
             </div>

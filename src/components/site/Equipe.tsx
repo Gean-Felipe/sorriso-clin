@@ -39,13 +39,14 @@ export function Equipe() {
               as="li"
               key={i}
               delay={i * 90}
-              className="overflow-hidden rounded-3xl border border-border bg-background"
+              className="group overflow-hidden rounded-3xl border border-border bg-background"
             >
-              <img
-                src={p.foto}
-                alt={p.alt}
-                className={`aspect-[3/4] w-full object-cover ${p.objeto}`}
-                width={1080}
+              <div className="overflow-hidden">
+                <img
+                  src={p.foto}
+                  alt={p.alt}
+                  className={`aspect-[3/4] w-full object-cover transition-transform duration-700 group-hover:scale-105 ${p.objeto}`}
+                  width={1080}
                 height={1440}
                 loading="lazy"
               />

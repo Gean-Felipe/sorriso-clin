@@ -54,9 +54,9 @@ export function Tratamentos() {
               as="li"
               key={nome}
               delay={(i % 3) * 80}
-              className="group flex flex-col rounded-2xl border border-border bg-background p-7 transition-all duration-300 hover:-translate-y-0.5 hover:border-primary/40"
+              className="group flex flex-col rounded-2xl border border-border bg-background p-7 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5"
             >
-              <span className="grid size-11 place-items-center rounded-xl bg-ice text-primary">
+              <span className="grid size-11 place-items-center rounded-xl bg-ice text-primary transition-transform duration-500 group-hover:scale-110 group-hover:bg-primary group-hover:text-primary-foreground">
                 <Icon className="size-5" aria-hidden="true" />
               </span>
               <h3 className="mt-5 font-display text-lg font-bold">{nome}</h3>
