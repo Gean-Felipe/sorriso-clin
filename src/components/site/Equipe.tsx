@@ -67,27 +67,30 @@ export function Equipe() {
           <Reveal
             as="li"
             delay={500}
-            className="hidden lg:flex flex-col justify-center px-8 py-12"
+            className="hidden lg:flex h-full flex-col items-start justify-center px-10 py-14"
           >
             {/* Detalhe geométrico discreto */}
-            <div className="mb-6 flex items-center gap-2" aria-hidden="true">
+            <div className="mb-7 flex items-center gap-2.5" aria-hidden="true">
               <span className="inline-block size-2 rounded-full bg-primary/40" />
               <span className="inline-block size-2 rounded-full bg-primary/20" />
             </div>
 
-            <p className="max-w-sm font-display text-2xl font-bold leading-snug text-deep sm:text-3xl">
+            <p className="max-w-xs font-display text-2xl font-bold leading-snug text-deep lg:text-3xl">
               Cada sorriso é único. E cada profissional também.
             </p>
 
-            {/* Linha fina decorativa */}
-            <span className="mt-7 block h-px w-14 bg-primary/25" aria-hidden="true" />
+            {/* Linha azul decorativa */}
+            <span className="mt-8 block h-px w-14 bg-primary/30" aria-hidden="true" />
 
-            <p className="mt-7 max-w-sm text-[0.938rem] leading-relaxed text-muted-foreground">
+            <p className="mt-8 max-w-xs text-[0.938rem] leading-[1.75] text-muted-foreground">
               A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
             </p>
-            <p className="mt-4 max-w-sm text-[0.938rem] leading-relaxed text-muted-foreground">
+            <p className="mt-4 max-w-xs text-[0.938rem] leading-[1.75] text-muted-foreground">
               Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
             </p>
+
+            {/* Acento vermelho */}
+            <span className="mt-8 block h-0.5 w-8 rounded-full bg-magenta/40" aria-hidden="true" />
           </Reveal>
         </ul>
       </div>
