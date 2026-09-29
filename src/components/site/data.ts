@@ -1,15 +1,15 @@
 export const img = {
-  logo: "/logo-sorrisoclin.png",
-  logoBranco: "/logo-sorrisoclin-branco.png",
-  dentistaJaleco: "/dentista-jaleco.jpg",
-  profissionalMagenta: "/profissional-magenta.jpg",
-  sedacao: "/sedacao-consciente.jpg",
-  sorrisoPaciente: "/sorriso-paciente.jpg",
-  antesDepois: "/antes-depois.jpg",
-  fotografiaOdonto: "/fotografia-odontologica.jpg",
-  casoAntes: "/caso-antes.jpg",
-  heroProfissionais: "/hero-profissionais.jpg",
-  casoDepois: "/caso-depois.jpg",
+  logo: "/logo-sorrisoclin.webp",
+  logoBranco: "/logo-sorrisoclin-branco.webp",
+  dentistaJaleco: "/dentista-jaleco.webp",
+  profissionalMagenta: "/profissional-magenta.webp",
+  sedacao: "/sedacao-consciente.webp",
+  sorrisoPaciente: "/sorriso-paciente.webp",
+  antesDepois: "/antes-depois.webp",
+  fotografiaOdonto: "/fotografia-odontologica.webp",
+  casoAntes: "/caso-antes.webp",
+  heroProfissionais: "/hero-profissionais.webp",
+  casoDepois: "/caso-depois.webp",
 };
 
 export const clinica = {

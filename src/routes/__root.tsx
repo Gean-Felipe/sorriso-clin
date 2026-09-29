@@ -83,16 +83,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.png", type: "image/png" },
+      // Preload da imagem LCP (Hero) — carregamento prioritário
+      {
+        rel: "preload",
+        href: "/hero-profissionais.webp",
+        as: "image",
+        type: "image/webp",
+      },
+      // Preconexão com Google Fonts
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      // Fonte com font-display=swap para não bloquear renderização
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap",
+        media: "print",
+        // @ts-expect-error onload trick para carregar fonte de forma assíncrona
+        onload: "this.media='all'",
       },
     ],
   }),
@@ -104,7 +113,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
