@@ -19,6 +19,7 @@ export const img = {
   antesDepois: antesDepois.url,
   fotografiaOdonto: fotografiaOdonto.url,
   casoAntes: casoAntes.url,
+  heroProfissionais: "/hero-profissionais.png",
   casoDepois: casoDepois.url,
 };
 

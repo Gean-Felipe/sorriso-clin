@@ -4,20 +4,20 @@ import { img } from "./data";
 const equipe = [
   {
     foto: img.dentistaJaleco,
-    alt: "Profissional da Sorriso Clin de jaleco branco em frente à clínica",
-    nome: "[Nome a confirmar]",
-    especialidade: "[Especialidade a confirmar]",
-    cro: "CRO [a confirmar]",
-    bio: "Apresentação profissional [A CONFIRMAR] pela clínica.",
+    alt: "Dra Gabriela Aparecida Galiego Reis",
+    nome: "Dra Gabriela Aparecida Galiego Reis",
+    especialidade: "Implantodontia • Ortodontia • Ortopedia Facial • Clínico Geral",
+    cro: "CRO 5550",
+    bio: "Cirurgiã-dentista com atuação em Implantodontia, Ortodontia, Ortopedia Facial e Clínico Geral, oferecendo atendimento personalizado e soluções completas para a saúde, função e estética do sorriso.",
     objeto: "object-top",
   },
   {
     foto: img.profissionalMagenta,
-    alt: "Profissional da Sorriso Clin com uniforme magenta em ambiente clínico",
-    nome: "[Nome a confirmar]",
-    especialidade: "[Especialidade a confirmar]",
-    cro: "CRO [a confirmar]",
-    bio: "Apresentação profissional [A CONFIRMAR] pela clínica.",
+    alt: "Dr.Valdir Silva Reis",
+    nome: "Dr.Valdir Silva Reis",
+    especialidade: "Ortodontia • Ortopedia Facial • Clínico Geral",
+    cro: "CRO 7681",
+    bio: "Cirurgião-dentista com atuação em Ortodontia, Ortopedia Facial e Clínico Geral, com foco no cuidado integral da saúde bucal e no acompanhamento personalizado de cada paciente.",
     objeto: "object-center",
   },
 ];
@@ -31,10 +31,6 @@ export function Equipe() {
           <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">
             Quem está por trás de cada sorriso.
           </h2>
-          <p className="mt-5 text-sm text-muted-foreground">
-            Nomes, especialidades e registros profissionais estão{" "}
-            <strong className="font-semibold text-magenta">[A CONFIRMAR]</strong> pela clínica.
-          </p>
         </Reveal>
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

@@ -62,8 +62,7 @@ export function Footer() {
 
       <div className="mx-auto mt-12 max-w-7xl border-t border-deep-foreground/15 px-4 pt-6 text-xs text-deep-foreground/60 sm:px-6">
         <p>
-          © {new Date().getFullYear()} {clinica.nome}. Todos os direitos reservados. Responsável
-          técnico e CRO: <span className="text-magenta">[A CONFIRMAR]</span>.
+          © {new Date().getFullYear()} {clinica.nome}. Todos os direitos reservados.
         </p>
       </div>
     </footer>

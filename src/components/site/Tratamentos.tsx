@@ -6,32 +6,32 @@ const tratamentos = [
   {
     icon: Sparkles,
     nome: "Estética Dental",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Cuidados odontológicos voltados à harmonia e à aparência do sorriso, com soluções personalizadas para melhorar a estética e a confiança ao sorrir.",
   },
   {
     icon: Anchor,
     nome: "Implantes",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Soluções para a reposição de um ou mais dentes ausentes, buscando recuperar a autoestima, funcionalidade, a segurança e a naturalidade do sorriso.",
   },
   {
     icon: Layers,
     nome: "Próteses",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Tratamentos destinados à reposição de dentes perdidos, contribuindo para recuperar a função mastigatória, a estética e o conforto.",
   },
   {
     icon: AlignHorizontalDistributeCenter,
     nome: "Ortodontia",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Tratamentos para correção do posicionamento dos dentes e da mordida, promovendo um sorriso mais alinhado e uma melhor função oral.",
   },
   {
     icon: Sun,
     nome: "Clareamento",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Procedimento estético destinado a deixar os dentes mais claros e valorizar a aparência do sorriso, de acordo com a avaliação profissional.",
   },
   {
     icon: Stethoscope,
     nome: "Dentística",
-    desc: "Categoria estrutural sugerida — escopo e procedimentos [A CONFIRMAR] pela clínica.",
+    desc: "Área da odontologia dedicada à prevenção e ao tratamento de alterações nos dentes, preservando sua estrutura, função e estética.",
   },
 ];
 
@@ -46,10 +46,6 @@ export function Tratamentos() {
           <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">
             Encontre o cuidado que seu sorriso precisa.
           </h2>
-          <p className="mt-5 text-sm text-muted-foreground">
-            As categorias abaixo são estruturais. A lista oficial de tratamentos oferecidos está{" "}
-            <strong className="font-semibold text-magenta">[A CONFIRMAR]</strong> pela clínica.
-          </p>
         </Reveal>
 
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

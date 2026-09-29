@@ -61,9 +61,9 @@ export function Hero() {
             <div className="absolute -inset-4 rounded-[2.5rem] bg-soft/70" aria-hidden="true" />
             <div className="relative overflow-hidden rounded-[2rem] bg-background shadow-[0_24px_60px_-30px_oklch(0.443_0.101_243.5_/_0.45)]">
               <img
-                src={img.dentistaJaleco}
-                alt="Profissional da Sorriso Clin de jaleco branco em frente à fachada da clínica"
-                className="aspect-[4/5] w-full object-cover object-top"
+                src={img.heroProfissionais}
+                alt="Dra. Gabriela e Dr. Valdir Reis — Sorriso Clin"
+                className="aspect-[4/5] w-full object-cover object-center"
                 width={1080}
                 height={1920}
                 fetchPriority="high"

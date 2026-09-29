@@ -1,7 +1,7 @@
 import { Reveal } from "./Reveal";
 
 const itens = [
-  { valor: "[A CONFIRMAR]", label: "Anos de experiência" },
+  { valor: "+20", label: "anos de experiência" },
   { valor: "4,5 ★", label: "Avaliação no Google" },
   { valor: "27", label: "Avaliações" },
   { valor: "Várzea Grande", label: "MT" },
