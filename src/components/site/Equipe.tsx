@@ -28,7 +28,7 @@ export function Equipe() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="max-w-2xl">
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Equipe</p>
-          <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">
+          <-medium sm:text-4xl">
             Quem está por trás de cada sorriso.
           </h2>
         </Reveal>

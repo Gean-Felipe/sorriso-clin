@@ -15,7 +15,7 @@ export function Tecnologia() {
           <p className="text-xs font-semibold tracking-[0.18em] text-deep-foreground/70 uppercase">
             Tecnologia
           </p>
-          <h2 className="mt-5 text-3xl leading-tight font-extrabold text-deep-foreground sm:text-4xl">
+          <-medium text-deep-foreground sm:text-4xl">
             Precisão para enxergar cada detalhe.
           </h2>
           <p className="mt-6 text-lg font-semibold text-deep-foreground/90">

@@ -28,7 +28,7 @@ export function Depoimentos() {
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
             Depoimentos
           </p>
-          <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">
+          <-medium sm:text-4xl">
             Histórias de quem voltou a sorrir.
           </h2>
           <p className="mt-5 flex items-center gap-2 text-sm text-muted-foreground">

@@ -29,7 +29,7 @@ export function Diferenciais() {
     <section className="bg-ice py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="max-w-2xl">
-          <h2 className="text-3xl font-extrabold sm:text-4xl">Por que escolher a Sorriso Clin?</h2>
+          <-medium sm:text-4xl">Por que escolher a Sorriso Clin?</h2>
         </Reveal>
         <ul className="mt-12 grid gap-px overflow-hidden rounded-3xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {blocos.map(({ icon: Icon, titulo, texto }, i) => (

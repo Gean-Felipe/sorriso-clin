@@ -9,7 +9,7 @@ export function Contato() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
         <Reveal>
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Contato</p>
-          <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">Venha nos visitar.</h2>
+          <-medium sm:text-4xl">Venha nos visitar.</h2>
 
           <ul className="mt-9 space-y-6 text-sm">
             <li className="flex gap-4">

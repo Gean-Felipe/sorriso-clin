@@ -26,7 +26,7 @@ export function Transformamos() {
     <section id="transformacoes" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-3xl text-center">
-          <h2 className="text-3xl font-extrabold sm:text-4xl lg:text-5xl">
+          <-medium sm:text-4xl lg:text-5xl">
             Transformamos sorrisos. Transformamos histórias.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">

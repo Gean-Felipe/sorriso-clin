@@ -23,7 +23,7 @@ export function Galeria() {
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
             A clínica
           </p>
-          <h2 className="mt-5 text-3xl font-extrabold sm:text-4xl">
+          <-medium sm:text-4xl">
             Um ambiente pensado para o seu conforto.
           </h2>
         </Reveal>
