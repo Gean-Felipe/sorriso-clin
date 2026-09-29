@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 export function Reveal({
   children,
   className,
-  delay = 0,
+  delay = 150,
   as: Tag = "div",
 }: {
   children: ReactNode;
