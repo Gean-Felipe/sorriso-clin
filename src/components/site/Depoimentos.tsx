@@ -3,9 +3,21 @@ import { Reveal } from "./Reveal";
 import { clinica } from "./data";
 
 const depoimentos = [
-  { texto: "[Depoimento a confirmar pela clínica]", autor: "[Paciente]" },
-  { texto: "[Depoimento a confirmar pela clínica]", autor: "[Paciente]" },
-  { texto: "[Depoimento a confirmar pela clínica]", autor: "[Paciente]" },
+  {
+    texto:
+      "Estou satisfeita com o resultado. Dr. Valdir e Dra. Gabriela me atenderam super bem, e amei o resultado final. Excelentes profissionais.",
+    autor: "Gilvana Martins",
+  },
+  {
+    texto:
+      "Equipe muito boa, destaque para o Dr. Valdir e Dra. Gabriela — excelentes profissionais!",
+    autor: "Jorge Anderson",
+  },
+  {
+    texto:
+      "Muito bom. Recomendo! O atendimento é feito por uma equipe de profissionais comprometidos e os valores do tratamento dentário são acessíveis.",
+    autor: "Julianne dos Santos Silva",
+  },
 ];
 
 export function Depoimentos() {
