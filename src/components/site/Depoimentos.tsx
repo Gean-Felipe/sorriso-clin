@@ -41,7 +41,7 @@ export function Depoimentos() {
               {clinica.nota} de média em {clinica.avaliacoes} avaliações no Google.
             </p>
           </Reveal>
-        </div>>
+        </div>
 
         <ul className="mt-12 grid gap-6 lg:grid-cols-3">
           {depoimentos.map((d, i) => (
@@ -54,7 +54,7 @@ export function Depoimentos() {
               <Quote className="size-6 text-magenta/70" aria-hidden="true" />
               <p className="mt-5 text-sm leading-relaxed text-muted-foreground">{d.texto}</p>
               <p className="mt-6 font-display text-sm font-bold text-deep">{d.autor}</p>
-            </Reveal>>
+            </Reveal>
           ))}
         </ul>
       </div>

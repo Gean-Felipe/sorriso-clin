@@ -80,7 +80,7 @@ export function Contato() {
               </Button>
             </div>
           </Reveal>
-        </div>>
+        </div>
 
         <Reveal delay={100} className="group overflow-hidden rounded-[2rem] border border-border bg-background">
           <iframe
