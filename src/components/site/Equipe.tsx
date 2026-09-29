@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import { Arc } from "./Arc";
 import { img } from "./data";
 
 const equipe = [
@@ -89,8 +90,8 @@ export function Equipe() {
               Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
             </p>
 
-            {/* Acento vermelho */}
-            <span className="mt-8 block h-0.5 w-8 rounded-full bg-magenta/40" aria-hidden="true" />
+            {/* Acento vermelho — mesma linguagem visual do Hero */}
+            <Arc className="mt-10 h-3 w-16 text-magenta" width={3} />
           </Reveal>
         </ul>
       </div>
