@@ -64,40 +64,25 @@ export function Hero() {
           </Reveal>
         </div>
 
-        <div className="flex flex-col gap-10 lg:gap-14">
-          <Reveal delay={120} className="relative">
-            <div className="group relative mx-auto max-w-md lg:max-w-none">
-              <div className="absolute -inset-4 rounded-[2.5rem] bg-soft/70 transition-transform duration-700 group-hover:scale-[1.02]" aria-hidden="true" />
-              <div className="relative overflow-hidden rounded-[2rem] bg-background shadow-[0_24px_60px_-30px_oklch(0.443_0.101_243.5_/_0.45)]">
-                <img
-                  src={img.heroProfissionais}
-                  alt="Dra. Gabriela e Dr. Valdir Reis — Sorriso Clin"
-                  className="aspect-[4/5] w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                  width={1080}
-                  height={1920}
-                  fetchPriority="high"
-                />
-              </div>
-              <div className="animate-float-slow absolute -bottom-6 -left-4 rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur-md sm:left-2">
-                <p className="font-display text-2xl font-bold text-deep">4,5 ★</p>
-                <p className="text-xs text-muted-foreground">27 avaliações no Google</p>
-              </div>
+        <Reveal delay={120} className="relative">
+          <div className="group relative mx-auto max-w-md lg:max-w-none">
+            <div className="absolute -inset-4 rounded-[2.5rem] bg-soft/70 transition-transform duration-700 group-hover:scale-[1.02]" aria-hidden="true" />
+            <div className="relative overflow-hidden rounded-[2rem] bg-background shadow-[0_24px_60px_-30px_oklch(0.443_0.101_243.5_/_0.45)]">
+              <img
+                src={img.heroProfissionais}
+                alt="Dra. Gabriela e Dr. Valdir Reis — Sorriso Clin"
+                className="aspect-[4/5] w-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                width={1080}
+                height={1920}
+                fetchPriority="high"
+              />
             </div>
-          </Reveal>
-
-          <div className="mx-auto max-w-md px-2 lg:max-w-none lg:pl-4 lg:pr-8">
-            <Reveal delay={500}>
-              <p className="font-display text-xl font-bold leading-snug text-deep sm:text-2xl">
-                Um sorriso transforma pequenos momentos.
-              </p>
-            </Reveal>
-            <Reveal delay={650}>
-              <p className="mt-5 text-sm leading-relaxed text-muted-foreground sm:text-base">
-                Porque algumas das melhores lembranças começam com um simples sorriso. É uma expressão que acompanha encontros, celebrações e histórias que permanecem com a gente.
-              </p>
-            </Reveal>
+            <div className="animate-float-slow absolute -bottom-6 -left-4 rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur-md sm:left-2">
+              <p className="font-display text-2xl font-bold text-deep">4,5 ★</p>
+              <p className="text-xs text-muted-foreground">27 avaliações no Google</p>
+            </div>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

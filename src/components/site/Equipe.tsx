@@ -63,6 +63,19 @@ export function Equipe() {
               </div>
             </Reveal>
           ))}
+
+          <Reveal
+            as="li"
+            delay={500}
+            className="hidden lg:flex flex-col justify-center px-6 py-10"
+          >
+            <p className="font-display text-xl font-bold leading-snug text-deep sm:text-2xl">
+              Um sorriso transforma pequenos momentos.
+            </p>
+            <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+              Porque algumas das melhores lembranças começam com um simples sorriso. É uma expressão que acompanha encontros, celebrações e histórias que permanecem com a gente.
+            </p>
+          </Reveal>
         </ul>
       </div>
     </section>
