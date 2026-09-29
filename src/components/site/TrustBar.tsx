@@ -17,7 +17,7 @@ export function TrustBar() {
             delay={i * 70}
             className="px-2 text-center lg:border-r lg:border-border lg:last:border-r-0"
           >
-            <p className="font-display text-2xl leading-tight font-extrabold text-deep sm:text-3xl">
+            <p className="font-display text-2xl leading-tight font-medium text-deep sm:text-3xl">
               {item.valor}
             </p>
             <p className="mt-1 text-xs tracking-wide text-muted-foreground uppercase sm:text-sm">

@@ -29,7 +29,7 @@ export function Diferenciais() {
     <section className="bg-ice py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="max-w-2xl">
-          <-medium sm:text-4xl">Por que escolher a Sorriso Clin?</h2>
+          <h2 className="text-3xl font-medium sm:text-4xl">Por que escolher a Sorriso Clin?</h2>
         </Reveal>
         <ul className="mt-12 grid gap-px overflow-hidden rounded-3xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-4">
           {blocos.map(({ icon: Icon, titulo, texto }, i) => (
@@ -40,7 +40,7 @@ export function Diferenciais() {
               className="group bg-background p-8 transition-colors hover:bg-background"
             >
               <Icon className="size-6 text-primary transition-transform duration-300 group-hover:scale-105" aria-hidden="true" />
-              <h3 className="mt-6 font-display text-lg font-bold">{titulo}</h3>
+              <h3 className="mt-6 font-display text-lg font-medium">{titulo}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{texto}</p>
               <span className="mt-6 block h-0.5 w-8 bg-magenta/70 transition-all duration-300 group-hover:w-14" />
             </Reveal>

@@ -13,7 +13,7 @@ export function CTAFinal() {
       />
       <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
         <Reveal>
-          <-medium text-primary-foreground sm:text-4xl">
+          <h2 className="text-3xl font-medium text-primary-foreground sm:text-4xl">
             Seu novo sorriso pode começar hoje.
           </h2>
           <p className="mt-5 text-base text-primary-foreground/85 sm:text-lg">

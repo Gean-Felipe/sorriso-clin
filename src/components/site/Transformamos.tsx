@@ -26,7 +26,7 @@ export function Transformamos() {
     <section id="transformacoes" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <Reveal className="mx-auto max-w-3xl text-center">
-          <-medium sm:text-4xl lg:text-5xl">
+          <h2 className="text-3xl font-medium sm:text-4xl lg:text-5xl">
             Transformamos sorrisos. Transformamos histórias.
           </h2>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -58,7 +58,7 @@ export function Transformamos() {
               <span className="mx-auto grid size-14 place-items-center rounded-full bg-soft text-primary">
                 <Icon className="size-6" aria-hidden="true" />
               </span>
-              <h3 className="mt-5 font-display text-lg font-bold">{titulo}</h3>
+              <h3 className="mt-5 font-display text-lg font-medium">{titulo}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{texto}</p>
             </Reveal>
           ))}

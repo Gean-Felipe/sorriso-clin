@@ -19,7 +19,7 @@ export function Hero() {
           <p className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-background px-4 py-1.5 text-xs font-semibold tracking-wide text-primary uppercase">
             Odontologia em Várzea Grande — MT
           </p>
-          <-medium sm:text-5xl xl:text-6xl">
+          <h1 className="mt-6 text-4xl leading-[1.05] font-medium sm:text-5xl xl:text-6xl">
             Mais que estética.{" "}
             <span className="relative inline-block">
               Devolvemos confiança
@@ -70,7 +70,7 @@ export function Hero() {
               />
             </div>
             <div className="animate-float-slow absolute -bottom-6 -left-4 rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur-md sm:left-2">
-              <p className="font-display text-2xl font-extrabold text-deep">4,5 ★</p>
+              <p className="font-display text-2xl font-medium text-deep">4,5 ★</p>
               <p className="text-xs text-muted-foreground">27 avaliações no Google</p>
             </div>
           </div>

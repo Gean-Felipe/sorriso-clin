@@ -19,7 +19,7 @@ export function Footer() {
         </div>
 
         <nav aria-label="Rodapé">
-          <h3 className="font-display text-sm font-bold tracking-wide uppercase">Navegação</h3>
+          <h3 className="font-display text-sm font-medium tracking-wide uppercase">Navegação</h3>
           <ul className="mt-4 space-y-2 text-sm text-deep-foreground/75">
             {nav.map((n) => (
               <li key={n.href}>
@@ -32,7 +32,7 @@ export function Footer() {
         </nav>
 
         <div>
-          <h3 className="font-display text-sm font-bold tracking-wide uppercase">Contato</h3>
+          <h3 className="font-display text-sm font-medium tracking-wide uppercase">Contato</h3>
           <ul className="mt-4 space-y-3 text-sm text-deep-foreground/75">
             <li>
               {clinica.endereco}

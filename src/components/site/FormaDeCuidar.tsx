@@ -25,7 +25,7 @@ export function FormaDeCuidar() {
           <p className="text-xs font-semibold tracking-[0.18em] text-magenta uppercase">
             Nossa forma de cuidar
           </p>
-          <-medium sm:text-4xl">
+          <h2 className="mt-5 text-3xl leading-tight font-medium sm:text-4xl">
             Seu tratamento começa antes da cadeira odontológica.
           </h2>
           <p className="mt-6 font-display text-lg font-semibold text-primary">

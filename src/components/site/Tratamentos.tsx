@@ -43,7 +43,7 @@ export function Tratamentos() {
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
             Tratamentos
           </p>
-          <-medium sm:text-4xl">
+          <h2 className="mt-5 text-3xl font-medium sm:text-4xl">
             Encontre o cuidado que seu sorriso precisa.
           </h2>
         </Reveal>
@@ -59,7 +59,7 @@ export function Tratamentos() {
               <span className="grid size-11 place-items-center rounded-xl bg-ice text-primary transition-transform duration-500 group-hover:scale-110 group-hover:bg-primary group-hover:text-primary-foreground">
                 <Icon className="size-5" aria-hidden="true" />
               </span>
-              <h3 className="mt-5 font-display text-lg font-bold">{nome}</h3>
+              <h3 className="mt-5 font-display text-lg font-medium">{nome}</h3>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">{desc}</p>
               <Button
                 asChild
