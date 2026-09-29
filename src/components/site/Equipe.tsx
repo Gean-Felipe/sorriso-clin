@@ -96,14 +96,9 @@ export function Equipe() {
             <span className="mt-6 block h-px w-14 bg-primary/30" aria-hidden="true" />
 
             {/* Texto descritivo refinado */}
-            <div className="mt-6 space-y-4 text-base sm:text-[1.0625rem] leading-relaxed text-muted-foreground">
-              <p>
-                A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
-              </p>
-              <p>
-                Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
-              </p>
-            </div>
+            <p className="mt-6 text-base sm:text-[1.0625rem] leading-relaxed text-muted-foreground">
+              A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
+            </p>
           </Reveal>
         </ul>
       </div>
