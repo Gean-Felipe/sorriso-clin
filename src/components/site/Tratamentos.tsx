@@ -39,22 +39,26 @@ export function Tratamentos() {
   return (
     <section id="tratamentos" className="bg-background py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <Reveal className="max-w-2xl">
-          <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
-            Tratamentos
-          </p>
-          <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
-            Encontre o cuidado que seu sorriso precisa.
-          </h2>
-        </Reveal>
+        <div className="max-w-2xl">
+          <Reveal delay={0}>
+            <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
+              Tratamentos
+            </p>
+          </Reveal>
+          <Reveal delay={150}>
+            <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
+              Encontre o cuidado que seu sorriso precisa.
+            </h2>
+          </Reveal>
+        </div>
 
         <ul className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {tratamentos.map(({ icon: Icon, nome, desc }, i) => (
             <Reveal
               as="li"
               key={nome}
-              delay={(i % 3) * 80}
-              className="group flex flex-col rounded-2xl border border-border bg-background p-7 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5"
+              delay={200 + (i % 3) * 150}
+              className="group flex flex-col rounded-2xl border border-border bg-background p-7 transition-all duration-700 ease-out hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/5"
             >
               <span className="grid size-11 place-items-center rounded-xl bg-ice text-primary transition-transform duration-500 group-hover:scale-110 group-hover:bg-primary group-hover:text-primary-foreground">
                 <Icon className="size-5" aria-hidden="true" />

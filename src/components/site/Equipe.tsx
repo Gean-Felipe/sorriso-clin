@@ -26,19 +26,23 @@ export function Equipe() {
   return (
     <section id="equipe" className="bg-ice py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <Reveal className="max-w-2xl">
-          <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Equipe</p>
-          <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
-            Quem está por trás de cada sorriso.
-          </h2>
-        </Reveal>
+        <div className="max-w-2xl">
+          <Reveal delay={0}>
+            <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Equipe</p>
+          </Reveal>
+          <Reveal delay={150}>
+            <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
+              Quem está por trás de cada sorriso.
+            </h2>
+          </Reveal>
+        </div>
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {equipe.map((p, i) => (
             <Reveal
               as="li"
               key={i}
-              delay={i * 90}
+              delay={200 + i * 150}
               className="group overflow-hidden rounded-3xl border border-border bg-background"
             >
               <div className="overflow-hidden">
