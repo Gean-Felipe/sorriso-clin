@@ -45,7 +45,7 @@ export function Header() {
             <a
               key={item.href}
               href={item.href}
-              className="rounded-md px-3 py-2 text-sm font-medium text-foreground/80 transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
+              className="rounded-md px-3 py-2 text-sm font-bold text-foreground/80 transition-colors hover:text-primary focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none"
             >
               {item.label}
             </a>
@@ -89,7 +89,7 @@ export function Header() {
                   <a
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="block rounded-lg px-2 py-3 text-base font-medium text-foreground transition-colors hover:bg-secondary"
+                    className="block rounded-lg px-2 py-3 text-base font-bold text-foreground transition-colors hover:bg-secondary"
                   >
                     {item.label}
                   </a>

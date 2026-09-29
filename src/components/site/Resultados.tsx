@@ -23,7 +23,7 @@ export function Resultados() {
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
             Resultados
           </p>
-          <h2 className="mt-5 text-3xl font-medium sm:text-4xl">Resultados que falam por si.</h2>
+          <h2 className="mt-5 text-3xl font-bold sm:text-4xl">Resultados que falam por si.</h2>
           <p className="mt-5 text-base text-muted-foreground">
             Arraste para comparar o antes e o depois de um caso real atendido na Sorriso Clin.
           </p>

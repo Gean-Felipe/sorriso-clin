@@ -28,7 +28,7 @@ export function Depoimentos() {
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">
             Depoimentos
           </p>
-          <h2 className="mt-5 text-3xl font-medium sm:text-4xl">
+          <h2 className="mt-5 text-3xl font-bold sm:text-4xl">
             Histórias de quem voltou a sorrir.
           </h2>
           <p className="mt-5 flex items-center gap-2 text-sm text-muted-foreground">
@@ -47,7 +47,7 @@ export function Depoimentos() {
             >
               <Quote className="size-6 text-magenta/70" aria-hidden="true" />
               <p className="mt-5 text-sm leading-relaxed text-muted-foreground">{d.texto}</p>
-              <p className="mt-6 font-display text-sm font-medium text-deep">{d.autor}</p>
+              <p className="mt-6 font-display text-sm font-bold text-deep">{d.autor}</p>
             </Reveal>
           ))}
         </ul>

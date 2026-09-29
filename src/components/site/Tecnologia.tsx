@@ -15,7 +15,7 @@ export function Tecnologia() {
           <p className="text-xs font-semibold tracking-[0.18em] text-deep-foreground/70 uppercase">
             Tecnologia
           </p>
-          <h2 className="mt-5 text-3xl leading-tight font-medium text-deep-foreground sm:text-4xl">
+          <h2 className="mt-5 text-3xl leading-tight font-bold text-deep-foreground sm:text-4xl">
             Precisão para enxergar cada detalhe.
           </h2>
           <p className="mt-6 text-lg font-semibold text-deep-foreground/90">
@@ -28,7 +28,7 @@ export function Tecnologia() {
           <ol className="mt-10 space-y-6">
             {etapas.map((e, i) => (
               <Reveal as="li" key={e.n} delay={i * 90} className="flex items-center gap-5">
-                <span className="font-display text-2xl font-medium text-deep-foreground/35">
+                <span className="font-display text-2xl font-bold text-deep-foreground/35">
                   {e.n}
                 </span>
                 <span className="h-px flex-1 bg-deep-foreground/20" />

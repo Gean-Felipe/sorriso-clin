@@ -9,7 +9,7 @@ export function Contato() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
         <Reveal>
           <p className="text-xs font-semibold tracking-[0.18em] text-primary uppercase">Contato</p>
-          <h2 className="mt-5 text-3xl font-medium sm:text-4xl">Venha nos visitar.</h2>
+          <h2 className="mt-5 text-3xl font-bold sm:text-4xl">Venha nos visitar.</h2>
 
           <ul className="mt-9 space-y-6 text-sm">
             <li className="flex gap-4">
@@ -48,10 +48,10 @@ export function Contato() {
 
           <div className="mt-6 text-sm text-muted-foreground space-y-1">
             <strong className="block font-semibold text-deep mb-2">Horário de Funcionamento</strong>
-            <p className="font-medium text-foreground">Segunda a sexta-feira:</p>
+            <p className="font-bold text-foreground">Segunda a sexta-feira:</p>
             <p>08:00 às 11:00</p>
             <p>13:00 às 18:00</p>
-            <p className="pt-2 font-medium text-foreground">Sábado:</p>
+            <p className="pt-2 font-bold text-foreground">Sábado:</p>
             <p>08:00 às 12:00</p>
           </div>
 
