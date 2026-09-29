@@ -3,18 +3,18 @@ import { img } from "./data";
 
 const equipe = [
   {
-    foto: img.dentistaJaleco,
-    alt: "Dra Gabriela Aparecida Galiego Reis",
-    nome: "Dra Gabriela Aparecida Galiego Reis",
+    foto: img.profissionalMagenta,
+    alt: "Dra. Gabriela Aparecida Galiego Reis",
+    nome: "Dra. Gabriela Aparecida Galiego Reis",
     especialidade: "Implantodontia • Ortodontia • Ortopedia Facial • Clínico Geral",
     cro: "CRO 5550",
     bio: "Cirurgiã-dentista com atuação em Implantodontia, Ortodontia, Ortopedia Facial e Clínico Geral, oferecendo atendimento personalizado e soluções completas para a saúde, função e estética do sorriso.",
     objeto: "object-top",
   },
   {
-    foto: img.profissionalMagenta,
-    alt: "Dr.Valdir Silva Reis",
-    nome: "Dr.Valdir Silva Reis",
+    foto: img.dentistaJaleco,
+    alt: "Dr. Valdir Silva Reis",
+    nome: "Dr. Valdir Silva Reis",
     especialidade: "Ortodontia • Ortopedia Facial • Clínico Geral",
     cro: "CRO 7681",
     bio: "Cirurgião-dentista com atuação em Ortodontia, Ortopedia Facial e Clínico Geral, com foco no cuidado integral da saúde bucal e no acompanhamento personalizado de cada paciente.",
