@@ -12,7 +12,7 @@ import casoDepois from "@/assets/caso-depois.jpg.asset.json";
 export const img = {
   logo: logo.url,
   logoBranco: logoBranco.url,
-  dentistaJaleco: dentistaJaleco.url,
+  dentistaJaleco: "/hero-profissionais.png",
   profissionalMagenta: profissionalMagenta.url,
   sedacao: sedacao.url,
   sorrisoPaciente: sorrisoPaciente.url,
