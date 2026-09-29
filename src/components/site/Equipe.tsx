@@ -74,7 +74,7 @@ export function Equipe() {
           <Reveal
             as="li"
             delay={500}
-            className="col-span-full lg:col-span-1 flex flex-col justify-center rounded-3xl border border-border/80 bg-background/60 p-8 sm:p-10 backdrop-blur-sm shadow-sm"
+            className="col-span-full lg:col-span-1 flex flex-col justify-center px-4 sm:px-6 lg:px-8 py-6 lg:py-8 lg:translate-y-2.5"
           >
             {/* Detalhe geométrico discreto */}
             <div className="mb-6 flex items-center gap-2" aria-hidden="true">
@@ -82,25 +82,27 @@ export function Equipe() {
               <span className="inline-block size-2 rounded-full bg-primary/20" />
             </div>
 
-            <p className="font-display text-2xl font-bold leading-snug text-deep lg:text-[1.75rem]">
-              Cada sorriso é único. E cada profissional também.
-            </p>
+            {/* Título com destaque sutil em 'sorriso' */}
+            <h3 className="font-display text-2xl sm:text-3xl lg:text-[2rem] xl:text-[2.25rem] font-bold leading-tight text-deep">
+              Cada{" "}
+              <span className="relative inline-block">
+                sorriso
+                <Arc className="absolute -bottom-1.5 left-0 h-2.5 w-full text-magenta" width={3} />
+              </span>{" "}
+              é único. E cada profissional também.
+            </h3>
 
-            {/* Linha azul decorativa */}
-            <span className="mt-6 block h-px w-12 bg-primary/30" aria-hidden="true" />
+            {/* Linha azul estrutural decorativa */}
+            <span className="mt-6 block h-px w-14 bg-primary/30" aria-hidden="true" />
 
-            <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground">
+            {/* Texto descritivo refinado */}
+            <div className="mt-6 space-y-4 text-base sm:text-[1.0625rem] leading-relaxed text-muted-foreground">
               <p>
                 A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
               </p>
               <p>
                 Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
               </p>
-            </div>
-
-            {/* Acento vermelho/magenta — identidade visual do Hero */}
-            <div className="mt-8 flex items-center">
-              <Arc className="h-3 w-16 text-magenta" width={3} />
             </div>
           </Reveal>
         </ul>
