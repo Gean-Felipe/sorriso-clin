@@ -67,13 +67,26 @@ export function Equipe() {
           <Reveal
             as="li"
             delay={500}
-            className="hidden lg:flex flex-col justify-center px-6 py-10"
+            className="hidden lg:flex flex-col justify-center px-8 py-12"
           >
+            {/* Detalhe geométrico discreto */}
+            <div className="mb-6 flex items-center gap-2" aria-hidden="true">
+              <span className="inline-block size-1.5 rounded-full bg-primary/40" />
+              <span className="inline-block size-1.5 rounded-full bg-primary/20" />
+            </div>
+
             <p className="font-display text-xl font-bold leading-snug text-deep sm:text-2xl">
-              Um sorriso transforma pequenos momentos.
+              Cada sorriso é único. E cada profissional também.
             </p>
+
+            {/* Linha fina decorativa */}
+            <span className="mt-6 block h-px w-12 bg-primary/25" aria-hidden="true" />
+
             <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
-              Porque algumas das melhores lembranças começam com um simples sorriso. É uma expressão que acompanha encontros, celebrações e histórias que permanecem com a gente.
+              A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+              Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
             </p>
           </Reveal>
         </ul>
