@@ -1,26 +1,15 @@
-import logo from "@/assets/logo-sorrisoclin.png.asset.json";
-import logoBranco from "@/assets/logo-sorrisoclin-branco.png.asset.json";
-import dentistaJaleco from "@/assets/dentista-jaleco.jpg.asset.json";
-import profissionalMagenta from "@/assets/profissional-magenta.jpg.asset.json";
-import sedacao from "@/assets/sedacao-consciente.jpg.asset.json";
-import sorrisoPaciente from "@/assets/sorriso-paciente.jpg.asset.json";
-import antesDepois from "@/assets/antes-depois.jpg.asset.json";
-import fotografiaOdonto from "@/assets/fotografia-odontologica.jpg.asset.json";
-import casoAntes from "@/assets/caso-antes.jpg.asset.json";
-import casoDepois from "@/assets/caso-depois.jpg.asset.json";
-
 export const img = {
-  logo: logo.url,
-  logoBranco: logoBranco.url,
-  dentistaJaleco: dentistaJaleco.url,
-  profissionalMagenta: profissionalMagenta.url,
-  sedacao: sedacao.url,
-  sorrisoPaciente: sorrisoPaciente.url,
-  antesDepois: antesDepois.url,
-  fotografiaOdonto: fotografiaOdonto.url,
-  casoAntes: casoAntes.url,
-  heroProfissionais: "/hero-profissionais.png",
-  casoDepois: casoDepois.url,
+  logo: "/logo-sorrisoclin.png",
+  logoBranco: "/logo-sorrisoclin-branco.png",
+  dentistaJaleco: "/dentista-jaleco.jpg",
+  profissionalMagenta: "/profissional-magenta.jpg",
+  sedacao: "/sedacao-consciente.jpg",
+  sorrisoPaciente: "/sorriso-paciente.jpg",
+  antesDepois: "/antes-depois.jpg",
+  fotografiaOdonto: "/fotografia-odontologica.jpg",
+  casoAntes: "/caso-antes.jpg",
+  heroProfissionais: "/hero-profissionais.jpg",
+  casoDepois: "/caso-depois.jpg",
 };
 
 export const clinica = {
