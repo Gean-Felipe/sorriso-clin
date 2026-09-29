@@ -50,6 +50,7 @@ export function Equipe() {
                 height={1440}
                 loading="lazy"
               />
+              </div>
               <div className="p-6">
                 <h3 className="font-display text-lg font-bold">{p.nome}</h3>
                 <p className="mt-1 text-sm font-medium text-primary">{p.especialidade}</p>
