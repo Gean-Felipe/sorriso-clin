@@ -46,10 +46,11 @@ export function Contato() {
             </li>
           </ul>
 
-          <p className="mt-6 text-sm text-muted-foreground">
-            Horário de funcionamento:{" "}
-            <strong className="font-semibold text-magenta">[A CONFIRMAR]</strong>
-          </p>
+          <div className="mt-6 text-sm text-muted-foreground space-y-1">
+            <strong className="block font-semibold text-deep mb-1">Horário de Funcionamento</strong>
+            <p>Segunda a sexta-feira: 08:00 às 11:00 | 13:00 às 18:00</p>
+            <p>Sábado: 08:00 às 12:00</p>
+          </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild size="lg" className="h-12 rounded-full px-7">
