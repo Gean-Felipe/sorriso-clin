@@ -38,29 +38,35 @@ export function Equipe() {
           </Reveal>
         </div>
 
-        <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 items-stretch">
           {equipe.map((p, i) => (
             <Reveal
               as="li"
               key={i}
               delay={200 + i * 150}
-              className="group overflow-hidden rounded-3xl border border-border bg-background"
+              className="group flex flex-col overflow-hidden rounded-3xl border border-border bg-background shadow-sm hover:shadow-md transition-shadow duration-300"
             >
-              <div className="overflow-hidden">
+              <div className="aspect-[4/5] w-full overflow-hidden">
                 <img
                   src={p.foto}
                   alt={p.alt}
-                  className={`aspect-[3/4] w-full object-cover transition-transform duration-700 group-hover:scale-105 ${p.objeto}`}
+                  className={`h-full w-full object-cover transition-transform duration-700 group-hover:scale-105 ${p.objeto}`}
                   width={1080}
-                height={1440}
-                loading="lazy"
-              />
+                  height={1350}
+                  loading="lazy"
+                />
               </div>
-              <div className="p-6">
-                <h3 className="font-display text-lg font-bold">{p.nome}</h3>
-                <p className="mt-1 text-sm font-bold text-primary">{p.especialidade}</p>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{p.bio}</p>
-                <p className="mt-4 text-xs tracking-wide text-muted-foreground uppercase">{p.cro}</p>
+              <div className="flex flex-1 flex-col justify-between p-6 sm:p-7">
+                <div>
+                  <h3 className="font-display text-lg font-bold text-foreground">{p.nome}</h3>
+                  <p className="mt-1.5 text-xs font-bold tracking-wide text-primary uppercase">
+                    {p.especialidade}
+                  </p>
+                  <p className="mt-3.5 text-sm leading-relaxed text-muted-foreground">{p.bio}</p>
+                </div>
+                <p className="mt-5 text-[11px] font-semibold tracking-wider text-muted-foreground/80 uppercase">
+                  {p.cro}
+                </p>
               </div>
             </Reveal>
           ))}
@@ -68,30 +74,34 @@ export function Equipe() {
           <Reveal
             as="li"
             delay={500}
-            className="hidden lg:flex h-full flex-col items-start justify-center px-10 py-14"
+            className="col-span-full lg:col-span-1 flex flex-col justify-center rounded-3xl border border-border/80 bg-background/60 p-8 sm:p-10 backdrop-blur-sm shadow-sm"
           >
             {/* Detalhe geométrico discreto */}
-            <div className="mb-7 flex items-center gap-2.5" aria-hidden="true">
+            <div className="mb-6 flex items-center gap-2" aria-hidden="true">
               <span className="inline-block size-2 rounded-full bg-primary/40" />
               <span className="inline-block size-2 rounded-full bg-primary/20" />
             </div>
 
-            <p className="max-w-xs font-display text-2xl font-bold leading-snug text-deep lg:text-3xl">
+            <p className="font-display text-2xl font-bold leading-snug text-deep lg:text-[1.75rem]">
               Cada sorriso é único. E cada profissional também.
             </p>
 
             {/* Linha azul decorativa */}
-            <span className="mt-8 block h-px w-14 bg-primary/30" aria-hidden="true" />
+            <span className="mt-6 block h-px w-12 bg-primary/30" aria-hidden="true" />
 
-            <p className="mt-8 max-w-xs text-[0.938rem] leading-[1.75] text-muted-foreground">
-              A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
-            </p>
-            <p className="mt-4 max-w-xs text-[0.938rem] leading-[1.75] text-muted-foreground">
-              Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
-            </p>
+            <div className="mt-6 space-y-4 text-sm leading-relaxed text-muted-foreground">
+              <p>
+                A equipe da Sorriso Clin reúne diferentes áreas da odontologia para acompanhar cada paciente de forma cuidadosa e individual. Dra.&nbsp;Gabriela e Dr.&nbsp;Valdir atuam em diferentes especialidades, unindo seus conhecimentos para oferecer possibilidades de tratamento voltadas à saúde, à função e à estética do sorriso.
+              </p>
+              <p>
+                Mais do que apresentar profissionais, esta seção representa as pessoas que fazem parte da experiência da Sorriso Clin e que colocam conhecimento, dedicação e atenção em cada etapa do cuidado.
+              </p>
+            </div>
 
-            {/* Acento vermelho — mesma linguagem visual do Hero */}
-            <Arc className="mt-10 h-3 w-16 text-magenta" width={3} />
+            {/* Acento vermelho/magenta — identidade visual do Hero */}
+            <div className="mt-8 flex items-center">
+              <Arc className="h-3 w-16 text-magenta" width={3} />
+            </div>
           </Reveal>
         </ul>
       </div>
