@@ -72,11 +72,11 @@ export function Contato() {
           </div>
         </Reveal>
 
-        <Reveal delay={100} className="overflow-hidden rounded-[2rem] border border-border bg-background">
+        <Reveal delay={100} className="group overflow-hidden rounded-[2rem] border border-border bg-background">
           <iframe
             src={clinica.mapsEmbed}
             title={`Mapa com a localização da ${clinica.nome} em Várzea Grande`}
-            className="h-80 w-full lg:h-full lg:min-h-[420px]"
+            className="h-80 w-full transition-transform duration-700 group-hover:scale-105 lg:h-full lg:min-h-[420px]"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
